@@ -15,7 +15,7 @@
 }
   #page-wrapper { 
     background-color: white; 
-    width: 768px; 
+    max-width: 960px; 
     margin: 0 auto;
 }
   #content{
@@ -38,7 +38,17 @@
     clear:both;
 }
 
-/* ----- Left-Sided Nav Menu -----*/
+/* ----- Ad Styling -----*/
+  .wide-skyscaper-ad{
+    width: 160px;
+    height: 600px;
+    background-color: silver;
+}
+
+/* ----- Three-Column Fixed Layout -----*/
+  #page-wrapper{
+    width:960px;
+}
   nav{
     float: left;
     width: 175px;
@@ -46,6 +56,11 @@
 }
   #content{
     float: left;
-    width: 593px;
+    width: 625px;
+    box-sizing: border-box;
+}
+  #sidebar{
+    float:left;
+    width:160px;
     box-sizing: border-box;
 }
