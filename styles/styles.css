@@ -1,0 +1,36 @@
+/**
+ * ==========================================================================
+ *   styles.css -- Global styles for the MyRWD website
+ * ==========================================================================
+ *
+ * Created April 2, 2014
+ *
+ * Authored by Robert Bohny
+ *
+ */
+ 
+ /* -----Basic styling -----*/
+   body{
+     background-color: lightblue;
+}
+  #page-wrapper { 
+    background-color: white; 
+    width: 768px; 
+    margin: 0 auto;
+}
+  #content{
+    background-color: #f7f2da;
+    padding: 0 0 1em 1em;
+    margin: 0 0 10px 0;
+}
+  nav {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+}
+  nav ul{
+    padding: 3px 10px;
+}
+  ul{
+    list-style-type:none;
+}
