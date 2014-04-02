@@ -34,3 +34,18 @@
   ul{
     list-style-type:none;
 }
+  footer{
+    clear:both;
+}
+
+/* ----- Left-Sided Nav Menu -----*/
+  nav{
+    float: left;
+    width: 175px;
+    box-sizing: border-box;
+}
+  #content{
+    float: left;
+    width: 593px;
+    box-sizing: border-box;
+}
